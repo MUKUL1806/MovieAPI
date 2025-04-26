@@ -22,6 +22,7 @@ Spring Boot with JWT authentication, exception handling, password reset via emai
 
 
 Add Movie 
+
 curl --location 'http://localhost:8080/api/v1/movie/add-movie' \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ2aWthc0BnbWFpbC5jb20iLCJpYXQiOjE3NDQ5NDQ4NjIsImV4cCI6MTc0NDk0NjM2Mn0.0yeM6-c4DYM7vOViD3afPkFNwd4lWbF6gdWmB2AMOFs' \
 --form 'file=@"/C:/Users/HP/Downloads/abc.png"' \
